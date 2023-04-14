@@ -1,4 +1,4 @@
-# OMDb-Search
+# DailyMafia website
 
 - [Project summary](#project-summary)
 - [Technology implementation](#technology-implementation)
