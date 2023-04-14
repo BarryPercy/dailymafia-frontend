@@ -49,6 +49,7 @@ A website for the Daily Mafia community to facilitate randomizing and facilitati
   - Game randomization e.g. deciding which players are the mafia/cop/vigilante/doctor.
   - Monitoring whether players are away/ready to keep playing.
   - Facilitating player input and showing the results of their actions e.g. which players have died overnight.
+  - Evaluating which team has won the game and displaying the results.
 - Game History to view results and player performance.
 - Forum for game or off-topic discussion.
 - Database structure for statistics of each player and game.
