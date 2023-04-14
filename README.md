@@ -44,13 +44,17 @@ A website for the Daily Mafia community to facilitate randomizing and facilitati
   - Register/Login with JWT
   - Investigation into Authentication with discord users.
 - Lobby Creation with a host user and logged in users. Potentially updated live via socket.io.
-- Game lobby Chat using socket.io
-- Game randomization e.g. deciding which players are the mafia/cop/vigilante/doctor.
-- Monitoring whether players are away/ready to keep playing.
-- Facilitating player input and showing the results of their actions e.g. which players have died overnight.
+- Game of Mafia
+  - Game lobby Chat using socket.io
+  - Game randomization e.g. deciding which players are the mafia/cop/vigilante/doctor.
+  - Monitoring whether players are away/ready to keep playing.
+  - Facilitating player input and showing the results of their actions e.g. which players have died overnight.
 - Game History to view results and player performance.
 - Forum for game or off-topic discussion.
 - Database structure for statistics of each player and game.
+- Section to view statistics on the website to show player performance/rankings.
+
+
 ## Author
 ### Barry Percy
 
