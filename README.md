@@ -8,7 +8,7 @@
 
 ### Front End and Back End
 
-This was created using a frontend and a backend and is a full stack application written completely in typescript.
+This will be created using a frontend and a backend and is a full stack application written completely in typescript.
 
 - [FrontEnd](https://github.com/BarryPercy/dailymafia-frontend)
 - [BackEnd](https://github.com/BarryPercy/dailymafia-backend)
