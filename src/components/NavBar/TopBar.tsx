@@ -5,6 +5,7 @@ import axios from "axios";
 import "./styles.css";
 
 const TopBar = () =>{
+    const discordLoginUrl = `${process.env.REACT_APP_BACKEND}/auth/discord/login`;
     const [user, setUser] = useState<User|null>(null)
     const [loggedIn, setLoggedIn] = useState(false);
     const checkLoginStatus = async () => {
@@ -41,14 +42,16 @@ const TopBar = () =>{
                         </Navbar.Brand>
                     </Col>
                     <Col>
-                        {loggedIn && (
+                        {loggedIn ? (
                             <Button onClick={handleLogout}>
                             Logout
                             </Button>
-                        )}
+                        ):<Button href={discordLoginUrl} variant="primary">
+                        Login with Discord
+                      </Button>}
                     </Col>
                     <Col className="text-white">
-                        Logged in user: {user?.userName}
+                        {user?.userName}
                     </Col>
                     
 
