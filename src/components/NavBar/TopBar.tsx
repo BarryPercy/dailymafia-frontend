@@ -31,8 +31,9 @@ const TopBar = () =>{
         }
       };
     useEffect(()=>{
-        checkLoginStatus();
         console.log("is it working",process.env.REACT_APP_BACKEND)
+        checkLoginStatus();
+        
     },[])
     return(
             <Container>
