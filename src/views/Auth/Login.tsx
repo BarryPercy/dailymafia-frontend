@@ -4,6 +4,8 @@ import { useState } from "react";
 
 
 const Login = ()=>{
+    const discordLoginUrl = `${process.env.REACT_APP_BACKEND}/auth/discord/login`;
+
     const [formObject, setFormObject] = useState({
         userName: "",
         password: "",
@@ -32,7 +34,7 @@ const Login = ()=>{
       };
     return(
         <Container fluid className="d-flex flex-column flex-grow-1">
-            <Row className="auth-container">
+            {/* <Row className="auth-container">
                 <Col xs={6} sm={4} md={3}>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className="mb-3 form-group" controlId="formBasicEmail">
@@ -64,7 +66,10 @@ const Login = ()=>{
                         </Button>
                     </Form>
                 </Col>
-            </Row>
+            </Row> */}
+            <Button href={discordLoginUrl} variant="primary">
+              Login with Discord
+            </Button>
         </Container>
     )
 }
